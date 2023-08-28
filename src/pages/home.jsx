@@ -62,7 +62,7 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Spped help foundation Working with commitment
+                Speed help foundation Working with commitment
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
                 Our Mission
@@ -77,7 +77,7 @@ export function Home() {
                 <CardHeader className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/src/assets/img/profile.jpg"
+                    src="/img/profile.jpg"
                     className="h-full w-full"
                   />
                 </CardHeader>
