@@ -18,7 +18,7 @@ export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('/img/bg.jpg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('/img/bg.webp')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -28,10 +28,10 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                SPEED HELP FOUNDATION
+                SPEEDHELP DISABILITY REHABILITATION FOUNDATION
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                We help people in every day in better life.
+                We help people for better life.
               </Typography>
             </div>
           </div>

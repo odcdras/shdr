@@ -79,88 +79,61 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "Material Tailwind",
+  title: "Follow us",
   description:
-    "Easy to use React components for Tailwind CSS and Material Design.",
+    "We are available on social media.",
   socials: [
     {
       color: "blue",
       name: "facebook",
-      path: "https://www.facebook.com/CreativeTim",
+      path: "https://www.facebook.com/",
     },
     {
       color: "light-blue",
       name: "twitter",
-      path: "https://www.twitter.com/creativetim",
-    },
-    {
-      color: "purple",
-      name: "instagram",
-      path: "https://www.instagram.com/creativetimofficial/",
-    },
-    {
-      color: "pink",
-      name: "dribbble",
-      path: "https://www.dribbble.com/creativetim",
+      path: "https://www.twitter.com/",
     },
     {
       color: "red",
       name: "youtube",
-      path: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
-    },
-    {
-      color: "black",
-      name: "github",
-      path: "https://github.com/creativetimofficial/material-tailwind",
-    },
+      path: "https://www.youtube.com/channel/",
+    },    
   ],
   menus: [
     {
       name: "useful links",
       items: [
-        { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-        { name: "Blog", path: "https://www.creative-tim.com/blog" },
-        {
-          name: "Github",
-          path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
-        },
-        {
-          name: "Free Products",
-          path: "https://www.creative-tim.com/templates/free?ref=mtk",
-        },
+        { name: "About Us", path: "https://www..com/" },
+        { name: "Blog", path: "https://www..com/blog" },        
       ],
     },
     {
       name: "other resources",
       items: [
         {
-          name: "MIT License",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
-        },
+          name: "License",
+          path: "https://.com/",
+        },  
         {
           name: "Contribute",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
-        },
-        {
-          name: "Change Log",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
+          path: "https://.com/",
         },
         {
           name: "Contact Us",
-          path: "https://creative-tim.com/contact-us?ref=mtk",
+          path: "https://c/",
         },
       ],
     },
   ],
   copyright: (
     <>
-      Copyright © {year} Material Tailwind by{" "}
+      Copyright © {year}  by{" "}
       <a
-        href="https://www.creative-tim.com?ref=mtk"
+        href="https://www.com?ref=mtk"
         target="_blank"
         className="text-blue-gray-500 transition-colors hover:text-blue-500"
       >
-        Creative Tim
+        SHRD
       </a>
       .
     </>

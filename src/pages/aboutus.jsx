@@ -10,7 +10,7 @@ export function Aboutus() {
   return (
     <>
       <section className="relative block h-[50vh]">
-        <div className="bg-profile-background absolute top-0 h-full w-full bg-[url('/img/background-1.jpg')] bg-cover bg-center" />
+        <div className="bg-profile-background absolute top-0 h-full w-full bg-[url('/img/bg.webp')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
       </section>
       <section className="relative bg-blue-gray-50/50 py-16 px-4">
@@ -22,102 +22,75 @@ export function Aboutus() {
                   <div className="relative">
                     <div className="-mt-20 w-40">
                       <Avatar
-                        src="/img/team-2.jpg"
+                        src="/img/aboutus1.jpg"
                         alt="Profile picture"
                         variant="circular"
                         className="h-full w-full shadow-xl"
-                      />
+                      />                      
                     </div>
                   </div>
-                </div>
-                <div className="mt-10 flex w-full justify-center px-4 lg:order-3 lg:mt-0 lg:w-4/12 lg:justify-end lg:self-center">
-                  <Button className="bg-blue-400">Conntect</Button>
-                </div>
-                <div className="w-full px-4 lg:order-1 lg:w-4/12">
-                  <div className="flex justify-center py-4 pt-8 lg:pt-4">
-                    <div className="mr-4 p-3 text-center">
-                      <Typography
-                        variant="lead"
-                        color="blue-gray"
-                        className="font-bold uppercase"
-                      >
-                        22
-                      </Typography>
-                      <Typography
-                        variant="small"
-                        className="font-normal text-blue-gray-500"
-                      >
-                        Friends
-                      </Typography>
-                    </div>
-                    <div className="mr-4 p-3 text-center">
-                      <Typography
-                        variant="lead"
-                        color="blue-gray"
-                        className="font-bold uppercase"
-                      >
-                        10
-                      </Typography>
-                      <Typography
-                        variant="small"
-                        className="font-normal text-blue-gray-500"
-                      >
-                        Photos
-                      </Typography>
-                    </div>
-                    <div className="p-3 text-center lg:mr-4">
-                      <Typography
-                        variant="lead"
-                        color="blue-gray"
-                        className="font-bold uppercase"
-                      >
-                        89
-                      </Typography>
-                      <Typography
-                        variant="small"
-                        className="font-normal text-blue-gray-500"
-                      >
-                        Comments
-                      </Typography>
+                </div>                
+              </div>
+              
+              <div className="my-8 text-center">
+                <Typography variant="h2" color="blue-gray" className="mb-2">
+                Deep Lata<br/>
+                </Typography>                
+                <div className="mb-2 flex items-center justify-center gap-2">                  
+                  <Typography className="font-medium text-blue-gray-700">
+                    Founder<br/>
+                  </Typography>
+                </div>                
+              </div>
+              <div></div>
+              <div className="px-80"></div>
+              <div className="flex flex-wrap justify-center">
+                <div className="flex w-full justify-center px-4 lg:order-2 lg:w-3/12">
+                  <div className="relative">
+                    <div className="-mt-25 w-40">
+                      <Avatar
+                        src="/img/aboutus2.jpg"
+                        alt="Profile picture"
+                        variant="circular"
+                        className="h-full w-full shadow-xl"
+                      />                      
                     </div>
                   </div>
-                </div>
+                </div>                
               </div>
               <div className="my-8 text-center">
                 <Typography variant="h2" color="blue-gray" className="mb-2">
-                  Jenna Stones
-                </Typography>
-                <div className="mb-16 flex items-center justify-center gap-2">
-                  <MapPinIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
+                Pooja Singh
+                </Typography>                
+                <div className="mb-2 flex items-center justify-center gap-2">                  
                   <Typography className="font-medium text-blue-gray-700">
-                    Los Angeles, California
+                    Founder<br/>
                   </Typography>
-                </div>
-                <div className="mb-2 flex items-center justify-center gap-2">
-                  <BriefcaseIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
-                  <Typography className="font-medium text-blue-gray-700">
-                    Solution Manager - Creative Tim Officer
-                  </Typography>
-                </div>
-                <div className="mb-2 flex items-center justify-center gap-2">
-                  <BuildingLibraryIcon className="-mt-px h-4 w-4 text-blue-gray-700" />
-                  <Typography className="font-medium text-blue-gray-700">
-                    University of Computer Science
-                  </Typography>
-                </div>
+                </div>                
               </div>
-
               <div className="mb-10 border-t border-blue-gray-50 py-6 text-center">
                 <div className="mt-2 flex flex-wrap justify-center">
                   <div className="flex w-full flex-col items-center px-4 lg:w-9/12">
                     <Typography className="mb-8 font-normal text-blue-gray-500">
-                      An artist of considerable range, Jenna the name taken by
-                      Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                      performs and records all of his own music, giving it a
-                      warm, intimate feel with a solid groove structure. An
-                      artist of considerable range.
+                    (SHDRF) is a voluntary Organization Working for the education, health,Art & Culture,Children,Education & Literacy, Health & Family Welfare,HIV/AIDS, Skill Development, Agriculture,Animal Husbandry, Dairying & Fisheries,Biotechnology,Civic Issues,Dalit Upliftment,Differently Abled,Disaster Management,Drinking Water,Aged/Elderly,Environment & Forests,Food Processing,Housing,Human Rights,Information & Communication Technology,Labour & Employment,Land Resources,Legal Awareness & Aid,Micro Finance
+                    (SHGs),Micro Small & Medium Enterprises,Minority Issues,New & Renewable Energy,Nutrition,Panchayati Raj,Prisoner's Issues,Right to Information & Advocacy,Rural Development & Poverty Alleviation,Science & Technology,Scientific & Industrial Research,Sports,Tourism,Tribal Affairs,Urban Development & Poverty Alleviation,Vocational Training,Water Resources,Women's Development & Empowerment,Youth Affairs and women’s empowerment in the Underprivileged communities, especially with children and women.<br/><br/>
+                    (SHDRF) was initiated with a view to evolving information and making linkage between the villagers and the government. We believed that knowledge would lead to awareness, which would further lead to  self-development,empowerment and action.                    
                     </Typography>
-                    <Button variant="text">Show more</Button>
+                    <Typography className="mb-8 font-normal text-blue-gray-500" >
+                    <b>Reg No. : 017863 Darpan/Niti Ayog/CSR</b><br/>                    
+                    <b>PAN No. : ABHCS6047E</b><br/>
+                    <b>State : Jharkhand/Bihar</b><br/> 
+                    <b>District: Deoghar</b><br/>                  
+                    </Typography>
+                    <Typography className="mb-8 font-normal text-blue-gray-500">
+                    Our Hand For Help foundation is a secular, non-political, non-governmental and non-profitable, registered charitable Society. Our activities include working for Run Free Education and providing hospitality, food, and clothing to the children who live below the poverty line and also for orphanages, and old age homes. We are also working actively for the elimination of child labor. 
+                    This is only but a brief account of some of our activities. We are a group of people working with immense motivation towards a common social goal. Tour the site for a descriptive account of all our activities.<br/><br/>
+
+                    Thanks<br/>
+                    Regards<br/>
+                    Our Hand For Help Foundation Team
+                    </Typography>
+                    
                   </div>
                 </div>
               </div>

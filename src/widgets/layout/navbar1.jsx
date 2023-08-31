@@ -61,12 +61,18 @@ export function Navbar({ brandName, routes, action }) {
   );
 
   return (
-    <MTNavbar color="transparent" className="p-3">
+    <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll">    
+    <MTNavbar color="white" className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link to="/">
-          <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
-            {brandName}
-          </Typography>
+          <img
+            className="avatar"
+            src={'img/bg.webp'}            
+            style={{
+              width: 100,
+              height: 100
+            }}
+          />
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
@@ -96,7 +102,7 @@ export function Navbar({ brandName, routes, action }) {
         <div className="container mx-auto">
           {navList}
           <a
-            href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
+            href="https://www..com/blocks/react?ref=mtkr"
             target="_blank"
             className="mb-2 block"
           >
@@ -108,23 +114,26 @@ export function Navbar({ brandName, routes, action }) {
         </div>
       </MobileNav>
     </MTNavbar>
+    </div>
   );
 }
 
 Navbar.defaultProps = {
-  brandName: "SHDRF",
+  brandName: "SHRD",
+  logoURL: "/img/bg.webp",
   action: (
     <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
+      href=""
       target="_blank"
-    >
-      
+    >      
     </a>
+
   ),
 };
 
 Navbar.propTypes = {
   brandName: PropTypes.string,
+  logoURL: PropTypes.string,
   routes: PropTypes.arrayOf(PropTypes.object).isRequired,
   action: PropTypes.node,
 };
