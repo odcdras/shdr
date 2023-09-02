@@ -6,22 +6,22 @@ import {
 
 export const contactData = [
   {
-    title: "Excelent Services",
+    title: "Excelent Services Award",
     icon: StarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Awards acknowledge NGO and individuals making a significant performance and achieve goal to make society better through their initiatives",
   },
   {
-    title: "Grow Your Market",
+    title: "Innovation and Creativity Award",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Award recognize the contributions of NGO in achieving the Sustainable Development Goals (SDGs) and is organized by the National Institution for Transforming India (NITI Aayog)",
   },
   {
-    title: "Launch Time",
+    title: "Impact and Effectiveness Award",
     icon: RocketLaunchIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Awards recognize to NGO that have demonstrated significant and measurable positive outcomes in their chosen fields, showcasing their effectiveness in achieving their missions",
   },
 ];
 

@@ -1,4 +1,4 @@
-import { Home, Profile, Aboutus, SignIn, SignUp } from "@/pages";
+import { Home, Profile, Services, Aboutus, Donate, SignIn, SignUp } from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
@@ -19,9 +19,19 @@ export const routes = [
     element: <Profile />,
   },
   {
+    name: "Services",
+    path: "/service",
+    element: <Services />,
+  },
+  {
     name: "About US",
     path: "/aboutus",
     element: <Aboutus />,
+  },
+  {
+    name: "Donate",
+    path: "/donate",
+    element: <Donate />,
   },
   {
     name: "Sign In",

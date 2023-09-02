@@ -20,18 +20,18 @@ export function Home() {
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
         <div className="absolute top-0 h-full w-full bg-[url('/img/bg.webp')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
-        <div className="max-w-8xl container relative mx-auto">
+        <div className="max-w-full container relative mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
+            <div className="ml-auto mr-auto w-full px-4 text-center lg:w-9/12">
               <Typography
-                variant="h1"
+                variant="h2"
                 color="white"
                 className="mb-6 font-black"
               >
                 SPEEDHELP DISABILITY REHABILITATION FOUNDATION
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                We help people for better life.
+              <b>Empowering Communities, Building Hope: Join us in creating a brighter future for all</b>
               </Typography>
             </div>
           </div>
@@ -53,58 +53,40 @@ export function Home() {
             ))}
           </div>
           <div className="mt-32 flex flex-wrap items-center">
-            <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
-                <UsersIcon className="h-6 w-6 text-blue-gray-900" />
-              </div>
+            <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">              
               <Typography
                 variant="h3"
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Speed help foundation Working with commitment
+                Speedhelp foundation Aim & Objectives
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Our Mission
-                <br />
-                <br />
-                Our Vision
+              (SHDRF)is a voluntary Organization Working for the education, health,Art & Culture,Children,Education & Literacy, Health & Family Welfare area and Many More to build a better society
               </Typography>
               <Button variant="outlined">read more</Button>
             </div>
-            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
-              <Card className="shadow-lg shadow-gray-500/10">
-                <CardHeader className="relative h-56">
+            <div className="mx-auto mt-2 flex w-full justify-center px-4 md:w-6/12 lg:mt-0">
+              
+                <CardHeader className="relative h-80 w-80">
                   <img
                     alt="Card Image"
                     src="/img/profile.jpg"
                     className="h-full w-full"
                   />
-                </CardHeader>
-                <CardBody>
-                  <Typography
-                    variant="h5"
-                    color="blue-gray"
-                    className="mb-3 font-bold"
-                  >
-                    Our focus
-                  </Typography>
-                  <Typography className="font-normal text-blue-gray-500">
-                    Dr. Nirjesh in workshop
-                  </Typography>
-                </CardBody>
-              </Card>
+                </CardHeader> 
+              
             </div>
           </div>
         </div>
       </section>
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
-          <PageTitle heading="Our Campaign">
+          <PageTitle heading="Our Work">
             Our NGO Works on various issue including health, education, Poverty, Human rights
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
-            {teamData.map(({ img, name, position, socials }) => (
+            {teamData.map(({ img, name, position }) => (
               <TeamCard
                 key={name}
                 img={img}
@@ -117,10 +99,8 @@ export function Home() {
       </section>
       <section className="relative bg-blue-gray-50/50 py-24 px-4">
         <div className="container mx-auto">
-          <PageTitle heading="Build something">
-            Put the potentially record low maximum sea ice extent tihs year down
-            to low ice. According to the National Oceanic and Atmospheric
-            Administration, Ted, Scambos.
+          <PageTitle heading="Recognition of Excellence">
+          We honor those who inspire change, foster innovation, and empower communities to create a brighter future for all
           </PageTitle>
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (

@@ -133,7 +133,7 @@ Footer.defaultProps = {
         target="_blank"
         className="text-blue-gray-500 transition-colors hover:text-blue-500"
       >
-        SHRD
+        SHDRF
       </a>
       .
     </>

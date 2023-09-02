@@ -7,24 +7,24 @@ import {
 export const featuresData = [
   {
     color: "blue",
-    title: "Awarded Agency",
+    title: "Vision",
     icon: StarIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "We are committed to create strong and independent society without inequalities and discrimination, and where everybody enjoys equal opportunities.",
   },
   {
     color: "red",
-    title: "Free Revisions",
+    title: "Mission",
     icon: ArrowPathIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "To Foster Democratic & Equitable Living Environment, Where all Vulnerable people     specially underprivileged, women and Children have to access to Education, Health  Sustainable Livelihood opportunity and essential infrastructure services irrespective of their economic and social status.",
   },
   {
     color: "teal",
-    title: "Verified Company",
+    title: "Goal",
     icon: FingerPrintIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "Over all Socio – Economic Development of underprivileged people specially women and    children!",
   },
 ];
 
